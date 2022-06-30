@@ -1,0 +1,80 @@
+.about-title {
+    font-weight: bold !important;
+    font-family: "Lucida Console" !important;
+    color: white !important;
+    text-underline-offset: 15px !important;
+    text-decoration: underline !important;
+}
+
+.grid-display {
+    margin-top: 25px !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    padding: 6px !important;
+}
+
+
+.btn-skill {
+    margin: 10px !important;
+    border-radius: 30px !important;
+    text-transform: none !important;
+    display: flex !important;
+    background-color: #2f4f4f!important;
+    color: white !important;
+    font-family: system-ui !important;
+    font-weight: 600 !important;
+}
+
+.skills {
+    margin-top: 30px !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-family: "Lucida Console" !important;
+    text-underline-offset: 8px !important;
+    text-decoration: underline !important;
+}
+
+.avatar-img {
+    margin: 26px;
+    display: flex !important;
+    flex-direction: row !important;
+    
+}
+
+.about-in {
+    margin-left: 22px !important;
+}
+
+.about-intro {
+    font-size: 1.2em !important;
+    font-weight: 400 !important;
+    color: white !important;
+    font-family: system-ui !important;
+}
+
+.class-wrap {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
+.main-div {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 80px !important;
+    padding: 20px !important;
+    background-color: rgba(0, 0, 0, 0.398) !important;
+    border-radius: 6px !important;
+}
+
+@media screen and (max-width: 950px) {
+    .avatar-img {
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+
+    .avatar-cls {
+        margin: 5px !important;
+    }
+}
