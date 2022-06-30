@@ -34,6 +34,14 @@
     text-decoration: none;
 }
 
+.logoo {
+    transition: transform .7s ease-in-out;
+}
+.logoo:hover {
+    cursor: pointer;
+    transform: rotate(360deg) !important;
+}
+
 .app-bar {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.503) !important;

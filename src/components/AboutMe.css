@@ -4,6 +4,7 @@
     color: white !important;
     text-underline-offset: 15px !important;
     text-decoration: underline !important;
+    text-align: center !important;
 }
 
 .grid-display {
@@ -17,6 +18,7 @@
 
 .btn-skill {
     margin: 10px !important;
+    padding: 4px !important;
     border-radius: 30px !important;
     text-transform: none !important;
     display: flex !important;
@@ -26,7 +28,22 @@
     font-weight: 600 !important;
 }
 
+.inlist {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 5px !important;
+}
+
 .skills {
+    margin-top: 30px !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-family: "Lucida Console" !important;
+    text-underline-offset: 8px !important;
+    text-decoration: underline !important;
+}
+
+.awards {
     margin-top: 30px !important;
     color: white !important;
     font-weight: bold !important;
@@ -48,7 +65,7 @@
 
 .about-intro {
     font-size: 1.2em !important;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
     color: white !important;
     font-family: system-ui !important;
 }
@@ -58,13 +75,27 @@
     align-items: center !important;
     flex-wrap: wrap !important;
 }
+
+.main-list {
+    padding-left: 26px !important;
+}
+
+.hobbies {
+    position: relative !important;
+    margin: 1px !important;
+}
+
 .main-div {
     display: flex !important;
     flex-direction: column !important;
-    margin: 80px !important;
+    margin: 40px !important;
     padding: 20px !important;
     background-color: rgba(0, 0, 0, 0.398) !important;
     border-radius: 6px !important;
+}
+
+.image-hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 950px) {
@@ -72,9 +103,14 @@
         align-items: center !important;
         flex-wrap: wrap !important;
         justify-content: center;
+        /* margin: 5px; */
     }
-
+    .class-wrap {
+        justify-content: center !important;
+    }
     .avatar-cls {
         margin: 5px !important;
+        width: 160px !important;
+        height: 160px !important;
     }
 }
