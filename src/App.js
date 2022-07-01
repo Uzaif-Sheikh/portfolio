@@ -2,26 +2,26 @@ import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
 import {
-  BrowserRouter as Router, Route,
+  BrowserRouter as Router, Link, Route,
   Routes,
+  useNavigate,
 } from "react-router-dom";
 import AboutMe from './components/AboutMe';
+
 function App() {
   return (
-    <main>
-      <header className="bg-gray-800 md:sticky top-0 z-10">
-      <Navbar />
-      </header>
-      <Router>
+    <>
+    <Navbar />
+    <div> 
         <Routes>
           <Route exact path="/" element={<AboutMe />} />
-          <Route exact path="/home" element={<>Home</>} />
-          <Route exact path="/projects" element={<>Home</>} />
-          <Route exact path="/about" element={<AboutMe />} />
-          <Route exact path="/hireme" element={<>Home</>} />
+          <Route path="/home" element={<>Home</>} />
+          <Route path="/projects" element={<>Home</>} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/hireme" element={<>Home</>} />
         </Routes>
-      </Router>
-    </main>
+    </div>
+    </>
   );
 }
 
