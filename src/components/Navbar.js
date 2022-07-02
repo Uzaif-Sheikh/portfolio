@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import logo from "./letter-u-svgrepo-com.svg"
 import HomeIcon from '@mui/icons-material/Home';
 import WorkIcon from '@mui/icons-material/Work';
@@ -6,8 +6,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import './Navbar.css'
 import AppBar from '@mui/material/AppBar';
-import {  BrowserRouter as Router, Link} from "react-router-dom";
-import { Button, Typography } from "@mui/material";
+import { Link} from "react-router-dom";
 
 export default function Navbar() {
   const [minWind, setminWind] = useState(false);
