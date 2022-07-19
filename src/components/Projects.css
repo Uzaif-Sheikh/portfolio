@@ -1,0 +1,77 @@
+
+.main-div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 40px !important;
+    padding: 20px !important;
+    background-color: rgba(0, 0, 0, 0.398) !important;
+    border-radius: 6px !important;
+    color: white !important;
+}
+
+.card-content {
+    background-color: rgba(18, 18, 18, 0.705) !important;
+    margin: 16px;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+
+.card-content:hover {
+    transform: scale(1.1) !important;
+}
+
+.project-tittle {
+    background-image: linear-gradient(90deg,#c9c8f1,#c3c2f4) !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    margin: 3px !important;
+}
+
+.btn-skill {
+    margin: 3px !important;
+    padding: 4px !important;
+    border-radius: 30px !important;
+    text-transform: none !important;
+    display: flex !important;
+    background-color: #2f4f4f!important;
+    color: white !important;
+    font-family: system-ui !important;
+    font-weight: 600 !important;
+}
+
+.image-hover {
+    cursor: pointer;
+}
+
+.project-des {
+    margin-top: 6px !important;
+    color: rgba(205, 198, 198, 0.91);
+}
+
+.divider-st {
+    background-color: #787575 !important;
+}
+
+.projects-container {
+    margin-top: 25px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.about-title {
+    font-weight: bold !important;
+    font-family: "Lucida Console" !important;
+    color: white !important;
+    text-underline-offset: 15px !important;
+    text-decoration: underline !important;
+    text-align: center !important;
+}

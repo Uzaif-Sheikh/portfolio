@@ -77,6 +77,10 @@ export default function AboutMe() {
                 label="Solidity"
               />
               <Chip className="btn-skill"
+                  avatar={<img className="image-hover" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" width="20px" height="20px"></img>}
+                  label="C#"
+              />
+              <Chip className="btn-skill"
                 avatar={<img className="image-hover" src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30px" height="30px"></img>}
                 label="AWS"
               />
@@ -84,7 +88,6 @@ export default function AboutMe() {
                 avatar={<img className="image-hover" src="https://img.icons8.com/plasticine/48/000000/bash.png" width="30px" height="30px"></img>}
                 label="Bash"
               />
-              
               <Chip className="btn-skill"
                 avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
                 label="Flask"

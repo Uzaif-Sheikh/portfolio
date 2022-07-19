@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Divider, Typography } from "@mui/material";
 import React from "react";
 import LinkIcon from '@mui/icons-material/Link';
 import './Home.css';
@@ -23,8 +23,9 @@ export default function Home() {
 						<Typography variant="h1" className="name-text">Uzaif Sheikh</Typography>
 						
 					</Box>
-					<Box>
-						<Typography variant="subtitle1" className="typed-class"><ReactTyped 
+					<Box className="typed-box">
+						<ReactTyped 
+							className="typed-class"
 							strings={[
 								"Computer Science Student.",
 								"Fullstack Developer.",
@@ -34,8 +35,9 @@ export default function Home() {
 							typeSpeed={100}
 							backSpeed={50}
 							loop	
-						/></Typography>
+						/>
 					</Box>
+					<Divider variant="middle"/>
 					<Button onClick={clickForResume} variant="contained" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><LinkIcon style={{ "transform": "rotate(120deg)" }} />Resume</Button>
 				</Box>
 			</>
