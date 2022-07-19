@@ -28,7 +28,7 @@ export default function Navbar() {
                     { minWind ? <Link className="link-btn" to="/home"><HomeIcon /></Link> : <Link className="link-btn" to="/home"><HomeIcon />Home</Link>}
                     { minWind ? <Link className="link-btn" to="/projects"><WorkIcon /></Link> : <Link className="link-btn" to="/projects"><WorkIcon />Projects</Link>}
                     { minWind ? <Link className="link-btn" to="/about"><PersonIcon /></Link> : <Link className="link-btn" to="/about"><PersonIcon />About Me</Link>}
-                    { minWind ? <Link className="link-btn" to="/hireme"><ContactsIcon /></Link> : <Link className="link-btn" to="/hireme"><ContactsIcon />Hire Me</Link>}
+                    { minWind ? <Link className="link-btn" to="/hireme"><ContactsIcon /></Link> : <Link className="link-btn" to="/contactme"><ContactsIcon />Contact</Link>}
                 </div>
             </div>
       </AppBar>
