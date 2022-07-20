@@ -19,9 +19,16 @@ export default function Home() {
 			<>
 				<Box className="main-div">
 					<Box>
-						<Typography variant="subtitle1" className="hi-text">Hi there, I'm</Typography>
+						<Typography variant="subtitle1" className="hi-text">Hey there, I'm</Typography>
 						<Typography variant="h1" className="name-text">Uzaif Sheikh</Typography>
-						
+					</Box>
+                    <Divider className="divider-st"/>
+					<Box className="about-container">
+						<Typography variant="subtitle1" className="about-text">
+						I am a final year computer science student at  University of New South Wales 
+						(UNSW) and I enjoy working on software related project, especially those that 
+						involve full stack development.
+						</Typography>
 					</Box>
 					<Box className="typed-box">
 						<ReactTyped 
@@ -38,7 +45,7 @@ export default function Home() {
 						/>
 					</Box>
 					<Divider variant="middle"/>
-					<Button onClick={clickForResume} variant="contained" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><LinkIcon style={{ "transform": "rotate(120deg)" }} />Resume</Button>
+					<Button onClick={clickForResume} variant="contained" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black", "marginTop": "16px"}}><LinkIcon style={{ "transform": "rotate(120deg)" }} />Resume</Button>
 				</Box>
 			</>
 		</Animation>

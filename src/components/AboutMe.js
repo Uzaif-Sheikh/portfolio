@@ -24,7 +24,7 @@ export default function AboutMe() {
           />
           <Box className="about-in">
             <Typography variant="subtitle1" className="about-intro">
-            Hi, my name is Uzaif Sheikh, and I'm a third-year computer science student here at 
+            Hi, my name is Uzaif Sheikh, and I'm a third-year computer science student at 
             the University of New South Wales (UNSW). Building effective and user-friendly application 
             is a passion of mine, and I get a kick out of tackling challenging problems. I'm a big fan 
             of open-source software and the blockchain, and I enjoy both taking advantage of and 
@@ -117,7 +117,11 @@ export default function AboutMe() {
               <List className="main-list">
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Soccer and Brazilian jiu-jitsu.</Typography>
+                  <Typography className="about-intro">Soccer.</Typography>
+                </ListItemIcon>
+                <ListItemIcon className="inlist">
+                  <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                  <Typography className="about-intro">Brazilian jiu-jitsu.</Typography>
                 </ListItemIcon>
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 

@@ -24,7 +24,7 @@ export default function Navbar() {
       <AppBar position="static" className="app-bar">
             <div className="flex-centre">
                 <div className="display-link">
-                <img className="logoo" src={logo} alt="u.svg" width="40px" height="40px"></img>
+                <Link to="/home"><img className="logoo" src={logo} alt="u.svg" width="40px" height="40px"></img></Link>
                     { minWind ? <Link className="link-btn" to="/home"><HomeIcon /></Link> : <Link className="link-btn" to="/home"><HomeIcon />Home</Link>}
                     { minWind ? <Link className="link-btn" to="/projects"><WorkIcon /></Link> : <Link className="link-btn" to="/projects"><WorkIcon />Projects</Link>}
                     { minWind ? <Link className="link-btn" to="/about"><PersonIcon /></Link> : <Link className="link-btn" to="/about"><PersonIcon />About Me</Link>}

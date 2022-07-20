@@ -2,6 +2,7 @@ body {
   background-image: linear-gradient(90deg, rgb(166 79 50), rgb(28 77 124));
   /* background-color: #1c2122; */
   overflow-x: hidden;
+  user-select: none;
 }
 
 .App {
