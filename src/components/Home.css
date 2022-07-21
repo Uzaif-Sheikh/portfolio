@@ -60,4 +60,7 @@
 .typed-box {
     margin: 6px !important;
     margin-bottom: 8px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
 }

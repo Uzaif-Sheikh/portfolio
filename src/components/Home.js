@@ -30,7 +30,7 @@ export default function Home() {
 						involve full stack development.
 						</Typography>
 					</Box>
-					<Box className="typed-box">
+					<div className="typed-box">
 						<ReactTyped 
 							className="typed-class"
 							strings={[
@@ -43,7 +43,7 @@ export default function Home() {
 							backSpeed={50}
 							loop	
 						/>
-					</Box>
+					</div>
 					<Divider variant="middle"/>
 					<Button onClick={clickForResume} variant="contained" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black", "marginTop": "16px"}}><LinkIcon style={{ "transform": "rotate(120deg)" }} />Resume</Button>
 				</Box>
