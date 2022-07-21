@@ -18,6 +18,7 @@ import coronaRun from "./coverGame.JPG";
 import blobby from "./Blobby.jpg";
 import nn from "./cnn.png";
 import loop from "./loopmania.jpg";
+import portfolio from "./personal-web.jpg";
 import "./Projects.css";
 
 export default function Projects() {
@@ -149,6 +150,40 @@ export default function Projects() {
                         </CardContent>
                         <CardActions>
                             <a href="https://github.com/Uzaif-Sheikh/Loop-Mania" target="__blank" style={{"marginRight": "2px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
+                        </CardActions>
+                    </Card></div>
+                    <div><Card className="card-content" sx={{ maxWidth: 345 }}>
+                        <CardMedia
+                            component="img"
+                            alt="fury of dracula"
+                            height="100"
+                            image={portfolio}
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h4" className="project-tittle" component="div">
+                            Portfolio Website
+                            </Typography>
+                            <div className="skills">
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="20px" height="20px"></img>}
+                                    label="Javascript"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="30px" height="30px"></img>}
+                                    label="React"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://mui.com/static/logo.png" width="30px" height="30px"></img>}
+                                    label="Material UI"
+                                />
+                            </div>
+                            <Divider className="divider-st"/>
+                            <Typography variant="body2"  className="project-des">
+                            Developed a portfolio website built with React, JavaScript, FramerMotion and Material UI.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <a href="https://github.com/Uzaif-Sheikh/portfolio" target="__blank" style={{"marginRight": "2px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
                         </CardActions>
                     </Card></div>
                     <div><Card className="card-content" sx={{ maxWidth: 345 }}>
