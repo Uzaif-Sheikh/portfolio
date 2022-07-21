@@ -11,6 +11,14 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   const [minWind, setminWind] = useState(false);
 
+  window.addEventListener("resize", () => {
+    if (window.innerWidth <= 950) {
+      setminWind(true);
+    } else {
+      setminWind(false);
+    }
+  });
+
   useEffect(() => {
     if (window.innerWidth <= 950) {
       setminWind(true);
@@ -18,6 +26,7 @@ export default function Navbar() {
       setminWind(false);
     }
   }, window);
+  
 
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">

@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <div> 
+    <div className="main-contain"> 
       <AnimatePresence exitBeforeEnter> 
         <Routes key={location.pathname} location={location}>
           <Route exact path="/" element={<Home />} />
