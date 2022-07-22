@@ -72,7 +72,7 @@ export default function Projects() {
                             </div>
                             <Divider className="divider-st"/>
                             <Typography variant="body2"  className="project-des">
-                            Circles is a free degree planner for UNSW students aiming to provide a easier way 
+                            Collaborated in a team of 12 in building a free degree planner for UNSW students aiming to provide a easier way 
                             to plan when to take their courses and explore potential courses available and 
                             review their degree progression.
                             </Typography>
