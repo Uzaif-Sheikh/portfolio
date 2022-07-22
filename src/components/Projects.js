@@ -272,7 +272,7 @@ export default function Projects() {
                             </div>
                             <Divider className="divider-st"/>
                             <Typography variant="body2"  className="project-des">
-                            Created bloddy, a file archiver from scratch using bit shift and C. made use of a sophisticated recursive algorithm to traverse through every file and subdirectory in a given directory. 
+                            Created Blobby, a file archiver from scratch using bit shift and C. made use of a sophisticated recursive algorithm to traverse through every file and subdirectory in a given directory. 
                             </Typography>
                         </CardContent>
                         <CardActions>

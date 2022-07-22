@@ -25,8 +25,8 @@ export default function Home() {
                     <Divider className="divider-st"/>
 					<Box className="about-container">
 						<Typography variant="subtitle1" className="about-text">
-						I am a final year computer science student at  University of New South Wales 
-						(UNSW) and I enjoy working on software related project, especially those that 
+						I am a final year computer science student at the University of New South Wales 
+						(UNSW) and I enjoy working on software related projects, especially those that 
 						involve full stack development.
 						</Typography>
 					</Box>
