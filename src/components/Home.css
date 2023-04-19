@@ -5,6 +5,7 @@
     margin: 40px !important;
     padding: 20px !important;
     background-color: rgba(0, 0, 0, 0.398) !important;
+    backdrop-filter: blur(3px);
     border-radius: 6px !important;
 }
 
