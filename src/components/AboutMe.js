@@ -7,6 +7,8 @@ import { Box } from "@mui/material";
 import './AboutMe.css'
 import { Typography } from "@mui/material";
 import Animation from "./Animation";
+import typescript from "./typescript.png";
+import dotnet from "./dotnet.png"
 
 export default function AboutMe() {
   return (
@@ -44,17 +46,26 @@ export default function AboutMe() {
                 avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="30px" height="30px"></img>}
                 label="Python"
               />
+              
               <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://gamingshogun.com/wp-content/uploads/2012/11/unityLogo.png" width="30px" height="30px"></img>}
-                label="Unity"
+                avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
+                label="Flask"
               />
               <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://static.cdnlogo.com/logos/d/41/docker.svg" width="30px" height="30px"></img>}
-                label="Docker"
+                avatar={<img className="image-hover" src={typescript} width="20px" height="20px"></img>}
+                label="Typescript"
               />
               <Chip className="btn-skill"
                 avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="20px" height="20px"></img>}
                 label="Javascript"
+              />
+              <Chip className="btn-skill"
+                avatar={<img className="image-hover" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.svg" width="30px" height="30px"></img>}
+                label="SQL"
+              />
+              <Chip className="btn-skill"
+                avatar={<img className="image-hover" src="https://static.cdnlogo.com/logos/d/41/docker.svg" width="30px" height="30px"></img>}
+                label="Docker"
               />
               <Chip className="btn-skill"
                 avatar={<img className="image-hover" src="https://camo.githubusercontent.com/2771059ece39a91f0ca8afe0205a540e3af66f435508ba80b080eb249479d4dc/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f632d70726f6772616d6d696e672e706e67" width="30px" height="30px"></img>}
@@ -73,12 +84,16 @@ export default function AboutMe() {
                 label="ExpressJS"
               /> 
               <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/1200px-Solidity_logo.svg.png" width="30px" height="30px"></img>}
-                label="Solidity"
-              />
-              <Chip className="btn-skill"
                   avatar={<img className="image-hover" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" width="20px" height="20px"></img>}
                   label="C#"
+              />
+              <Chip className="btn-skill"
+                  avatar={<img className="image-hover" src={dotnet} width="20px" height="20px"></img>}
+                  label=".NET"
+              />
+              <Chip className="btn-skill"
+                avatar={<img className="image-hover" src="https://swimburger.net/media/ppnn3pcl/azure.png" width="30px" height="30px"></img>}
+                label="Azure"
               />
               <Chip className="btn-skill"
                 avatar={<img className="image-hover" src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="30px" height="30px"></img>}
@@ -87,10 +102,6 @@ export default function AboutMe() {
               <Chip className="btn-skill"
                 avatar={<img className="image-hover" src="https://img.icons8.com/plasticine/48/000000/bash.png" width="30px" height="30px"></img>}
                 label="Bash"
-              />
-              <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
-                label="Flask"
               />
             </Box>
 

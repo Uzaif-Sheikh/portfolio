@@ -19,13 +19,14 @@
     margin-right: 4px;
     cursor: pointer;
     padding: 5px;
+    transition: all 1s ease;
 }
 
 .cont-link:hover {
     margin-left: 4px;
     margin-right: 4px;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.458);
+    background-color: rgba(230, 230, 230, 0.458);
     border-radius: 50%;
     padding: 5px;
 }

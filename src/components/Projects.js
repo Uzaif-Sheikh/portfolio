@@ -19,7 +19,9 @@ import blobby from "./Blobby.jpg";
 import nn from "./cnn.png";
 import loop from "./loopmania.jpg";
 import portfolio from "./personal-web.jpg";
+import dontbelate from "./dontbelate.jpg";
 import "./Projects.css";
+import mysqlLogo from "./mysql.png"
 
 export default function Projects() {
 
@@ -80,6 +82,58 @@ export default function Projects() {
                         <CardActions>
                             <a href="https://github.com/csesoc/Circles" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
                             <a href="https://circles.csesoc.app/" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><ExitToAppIcon />Demo</Button></a>
+                        </CardActions>
+                    </Card></div>
+                    <div><Card className="card-content" sx={{ maxWidth: 345 }}>
+                        <CardMedia
+                            component="img"
+                            alt="fury of dracula"
+                            height="100"
+                            image={dontbelate}
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h4" className="project-tittle" component="div">
+                            Event Management System
+                            </Typography>
+                            <div className="skills">
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="20px" height="20px"></img>}
+                                    label="Javascript"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="30px" height="30px"></img>}
+                                    label="React"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="30px" height="30px"></img>}
+                                    label="Python"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
+                                    label="Flask"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://jwt.io/img/pic_logo.svg" width="30px" height="30px"></img>}
+                                    label="JWT"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src={mysqlLogo} width="30px" height="30px"></img>}
+                                    label="MySQL"
+                                />
+                                <Chip className="btn-skill"
+                                    avatar={<img className="image-hover" src="https://img.icons8.com/plasticine/48/000000/bash.png" width="30px" height="30px"></img>}
+                                    label="Bash"
+                                />
+                            </div>
+                            <Divider className="divider-st"/>
+                            <Typography variant="body2"  className="project-des">
+                            Collaborated in an agile team of 5 to develop a full-stack event management system with a unique loyalty program. Implemented a 
+                            Flask-based REST API for seamless user interactions. Designed and developed a user-friendly frontend using ReactJS and 
+                            Material UI. Built and maintained a robust MySQL database for efficient data storage and retrieval.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <a href="https://github.com/Uzaif-Sheikh/Event_Management" target="__blank" style={{"marginRight": "2px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
                         </CardActions>
                     </Card></div>
                     <div><Card className="card-content" sx={{ maxWidth: 345 }}>
@@ -284,37 +338,6 @@ export default function Projects() {
                             component="img"
                             alt="fury of dracula"
                             height="100"
-                            image={frankie}
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h4" className="project-tittle" component="div">
-                            Frankie The Fox
-                            </Typography>
-                            <div className="skills">
-                                <Chip className="btn-skill"
-                                    avatar={<img className="image-hover" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" width="20px" height="20px"></img>}
-                                    label="C#"
-                                />
-                                <Chip className="btn-skill"
-                                    avatar={<img className="image-hover" src="https://gamingshogun.com/wp-content/uploads/2012/11/unityLogo.png" width="30px" height="30px"></img>}
-                                    label="Unity"
-                                />
-                            </div>
-                            <Divider className="divider-st"/>
-                            <Typography variant="body2"  className="project-des">
-                                Frankie The Fox, a survival game based on a fox called Frankie who once lived on the UNSW campus, <a target="__blank" href="https://7news.com.au/news/animals/several-students-bitten-by-fox-at-university-of-new-south-wales-kensington-campus-c-1105225" style={{"color": "rgba(205, 198, 198)"}}>more on Frankie</a>. The game was developed with C# on Unity.
-                            </Typography>
-                        </CardContent>
-                        <CardActions>
-                            <a href="https://github.com/Uzaif-Sheikh/Frankie-the-fox" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
-                            <a href="https://gamenchill.itch.io/frakie-the-fox" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><ExitToAppIcon />Demo</Button></a>
-                        </CardActions>
-                    </Card></div>
-                    <div><Card className="card-content" sx={{ maxWidth: 345 }}>
-                        <CardMedia
-                            component="img"
-                            alt="fury of dracula"
-                            height="100"
                             image={nn}
                         />
                         <CardContent>
@@ -346,11 +369,11 @@ export default function Projects() {
                             component="img"
                             alt="fury of dracula"
                             height="100"
-                            image={coronaRun}
+                            image={frankie}
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h4" className="project-tittle" component="div">
-                            CoronaRun
+                            Frankie The Fox
                             </Typography>
                             <div className="skills">
                                 <Chip className="btn-skill"
@@ -358,18 +381,18 @@ export default function Projects() {
                                     label="C#"
                                 />
                                 <Chip className="btn-skill"
-                                    avatar={<img className="image-hover" src="https://gamingshogun.com/wp-content/uploads/2012/11/unityLogo.png" width="30px" height="30px"></img>}
+                                    avatar={<img className="image-hover" src="https://avatars.githubusercontent.com/u/426196?s=200&v=4" width="30px" height="30px"></img>}
                                     label="Unity"
                                 />
                             </div>
                             <Divider className="divider-st"/>
                             <Typography variant="body2"  className="project-des">
-                            CoronaRun was developed during a 2-day Game Jam competition using Unity and C#. 
+                                Frankie The Fox, a survival game based on a fox called Frankie who once lived on the UNSW campus, <a target="__blank" href="https://7news.com.au/news/animals/several-students-bitten-by-fox-at-university-of-new-south-wales-kensington-campus-c-1105225" style={{"color": "rgba(205, 198, 198)"}}>more on Frankie</a>. The game was developed with C# on Unity.
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <a href="https://github.com/Uzaif-Sheikh/CoronaRun" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
-                            <a href="https://gamenchill.itch.io/coronarun" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><ExitToAppIcon />Demo</Button></a>
+                            <a href="https://github.com/Uzaif-Sheikh/Frankie-the-fox" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><GitHubIcon />GitHub</Button></a>
+                            <a href="https://gamenchill.itch.io/frakie-the-fox" target="__blank" style={{"marginRight": "1px", "textDecoration": "none"}}><Button size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}><ExitToAppIcon />Demo</Button></a>
                         </CardActions>
                     </Card></div>
                     </Box>
