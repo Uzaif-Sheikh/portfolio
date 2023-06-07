@@ -32,6 +32,7 @@ export default function AboutMe() {
             of open-source software and the blockchain, and I enjoy both taking advantage of and 
             contributing to both communities.
             </Typography>
+            <br />
             <Typography variant="h5" className="skills">Tech Stack:</Typography>
             <Box className="grid-display">
               <Chip className="btn-skill"

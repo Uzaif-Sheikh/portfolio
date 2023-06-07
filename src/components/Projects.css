@@ -5,16 +5,18 @@
     justify-content: center !important;
     margin: 40px !important;
     padding: 20px !important;
-    background-color: rgba(0, 0, 0, 0.398) !important;
+    background-color: rgba(0, 0, 0, 0.012) !important;
     border-radius: 6px !important;
     color: white !important;
 }
 
 .card-content {
-    background-color: rgba(18, 18, 18, 0.705) !important;
+    background-color: #0F1624 !important;
     margin: 16px !important;
     cursor: pointer !important;
     transition: all .6s ease-in-out !important;
+    /* box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5) !important; */
+    box-shadow: rgba(111, 111, 111, 0.2) 0px 12px 28px 0px, rgba(123, 123, 123, 0.1) 0px 2px 4px 0px, rgba(125, 125, 125, 0.154) 0px 0px 0px 1px inset !important;
 }
 
 .card-content:hover {
@@ -76,3 +78,39 @@
     text-decoration: underline !important;
     text-align: center !important;
 }
+
+.comic-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5292ff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.fix-button-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .comic-button:hover {
+    background-color: #d6d4ce;
+    color: #5292ff;
+    border: 2px solid #5292ff;
+    box-shadow: 5px 5px 0px #5292ff;
+  }
+  
+  .comic-button:active {
+    background-color: #2a3e6ddb;
+    box-shadow: none;
+    transform: translateY(4px);
+  }

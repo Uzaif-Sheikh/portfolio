@@ -27,7 +27,7 @@ export default function Contact() {
                                 name="Message"
                             ></TextareaAutosize>
                             <div className="btn">
-                                <Button type="submit" size="small" style={{ "backgroundColor": "rgba(110, 152, 244, 0.95)", "fontWeight": "bold", "color": "black" }}>Submit</Button>
+                                <button type="submit" class="comic-button-submit">Submit</button>
                             </div>
                         </form>
                     </Box>

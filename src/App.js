@@ -25,7 +25,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="main-contain">
         <AnimatePresence exitBeforeEnter>
           <Routes key={location.pathname} location={location}>
             <Route exact path="/" element={<Home />} />
@@ -35,7 +34,6 @@ function App() {
             <Route path="/contactme" element={<Contact />} />
           </Routes>
         </AnimatePresence>
-      </div>
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -54,7 +52,7 @@ function App() {
               }
             },
             "color": {
-              "value": "#111"
+              "value": "#cacfcc"
             },
             "shape": {
               "type": "circle",
@@ -63,7 +61,7 @@ function App() {
               }
             },
             "opacity": {
-              "value": 0.5,
+              "value": 0.05,
               "random": false,
               "anim": {
                 "enable": false,
@@ -95,8 +93,8 @@ function App() {
             "line_linked": {
               "enable": true,
               "distance": 600,
-              "color": "#111",
-              "opacity": 0.4,
+              "color": "#cacfcc",
+              "opacity": 0.05,
               "width": 2
             },
             "move": {
@@ -129,7 +127,7 @@ function App() {
               "grab": {
                 "distance": 150,
                 "line_linked": {
-                  "opacity": 0.8 
+                  "opacity": 0.1 
                 }
               },
               "bubble": {
@@ -152,8 +150,8 @@ function App() {
           },
           "retina_detect": true,
           "background": {
-            "color": "",
-            "image": "linear-gradient(90deg, rgb(166 79 50), rgb(28 77 124))",
+            "color": "#0F1624",
+            // "image": "linear-gradient(90deg, rgb(166 79 50), rgb(28 77 124))",
             "position": "50% 50%",
             "repeat": "no-repeat",
             "size": "cover"

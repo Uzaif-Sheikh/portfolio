@@ -20,6 +20,7 @@
     cursor: pointer;
     padding: 5px;
     transition: all 1s ease;
+    color: white !important;
 }
 
 .cont-link:hover {
@@ -67,15 +68,16 @@
 
 .app-bar {
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.503) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     backdrop-filter: blur(2px);
     /* opacity: 50% !important; */
 }
 
 .app-bar-below {
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.201) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     box-shadow: none !important;
     backdrop-filter: blur(2.5px);
+    color: white;
     /* opacity: 50% !important; */
 }
