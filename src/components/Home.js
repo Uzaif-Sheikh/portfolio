@@ -5,6 +5,7 @@ import './Home.css';
 import Animation from "./Animation";
 import ReactTyped from "react-typed";
 import Resume from "./document/resume.pdf"
+import folder from "./folder.png"
 
 
 
@@ -17,9 +18,19 @@ export default function Home() {
 	return (
 		<Animation>
 				<div className="main-div-home">
+					<div class="terminal_toolbar">
+						<div class="butt">
+							<button class="btn btn-color"></button>
+							<button class="btn"></button>
+							<button class="btn"></button>
+						</div>
+						<p class="user">uzaif@admin: ~</p>
+						<div class="add_tab">+</div>
+					</div>
 					<div>
 						<Typography variant="subtitle1" className="hi-text">Hey there, I'm</Typography>
-						<Typography variant="h1" className="name-text">Uzaif Sheikh</Typography>
+						<Typography variant="h1" className="name-text">Uzaif Sheikh <span class="terminal_location">~ </span>
+						<span class="terminal_bling">$</span></Typography>
 					</div>
                     <Divider className="divider-st"/>
 					<div className="about-container">
@@ -45,7 +56,7 @@ export default function Home() {
 						/>
 					</div>
 					<Divider variant="middle"/>
-					<button onClick={clickForResume} class="comic-button-home"><div className="fix-button-name"><LinkIcon style={{ "transform": "rotate(120deg)" }} />Resume</div></button>
+					<button onClick={clickForResume} class="comic-button-home"><div className="fix-button-name"><img src={folder} width="50px" height="50px"/>Resume</div></button>
 				</div>
 		</Animation>
 	);

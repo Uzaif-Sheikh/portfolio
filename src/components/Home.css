@@ -4,15 +4,15 @@
     align-items: center !important;
     justify-content: center !important;
     margin: 40px !important;
-    padding: 20px !important;
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(1px);
     border-radius: 6px !important;
     box-shadow: rgba(2, 2, 2, 0.1) 0px 8px 24px, rgba(0, 0, 0, 0.1) 0px 16px 56px, rgba(2, 2, 2, 0.1) 0px 24px 80px;
+    padding-bottom: 20px;
 }
 
 .hi-text {
     font-weight: bold !important;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     background-image: linear-gradient(90deg,#c9c8f1,#c3c2f4) !important;
     background-clip: text !important;
     color: transparent !important;
@@ -27,7 +27,6 @@
     background-image: linear-gradient(90deg,#ffffff,#c0c0ad) !important;
     background-clip: text !important;
     color: transparent !important;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: 600 !important;
     text-align: center !important;
 }
@@ -40,7 +39,6 @@
 }
 
 .name-text {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: bold !important;
     background-image: linear-gradient(45deg,#d6d4ce,#8791c1);
     background-clip: text !important;
@@ -50,7 +48,6 @@
 
 .typed-class {
     font-size: 2em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     background-image: linear-gradient(90deg,#c9c8f1,#c3c2f4) !important;
     background-clip: text !important;
     background-clip: text !important;
@@ -70,7 +67,7 @@
 
 .comic-button-home {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 5px 5px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -101,5 +98,116 @@
     background-color: #2a3e6ddb;
     box-shadow: none;
     transform: translateY(4px);
+  }
+  
+  .terminal_toolbar {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #212121;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .butt {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 8px;
+    height: 12px;
+    width: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 100%;
+    background: linear-gradient(#7d7871 0%, #595953 100%);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 1px 0px #41403a, 0px 1px 1px 0px #474642;
+  }
+  
+  .btn-color {
+    background: #ee411a;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .butt--exit {
+    background: linear-gradient(#f37458 0%, #de4c12 100%);
+  }
+  
+  .add_tab {
+    color: #fff;
+    padding: 0 6px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+    cursor: pointer;
+  }
+  
+  .user {
+    color: #d5d0ce;
+    margin-left: 6px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  
+  .terminal_location {
+    color: #4878c0;
+  }
+  
+  .terminal_bling {
+    color: #dddddd;
+  }
+  
+  .terminal_cursor {
+    display: block;
+    height: 14px;
+    width: 5px;
+    margin-left: 10px;
+    animation: curbl 1200ms linear infinite;
+  }
+  
+  .terminal_output {
+    padding: 4px;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  @keyframes curbl {
+    0% {
+      background: #ffffff;
+    }
+  
+    49% {
+      background: #ffffff;
+    }
+  
+    60% {
+      background: transparent;
+    }
+  
+    99% {
+      background: transparent;
+    }
+  
+    100% {
+      background: #ffffff;
+    }
   }
   

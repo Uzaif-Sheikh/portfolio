@@ -26,7 +26,7 @@ export default function Contact() {
                                 style={{ width:  "100%", height: "200px" }}
                                 name="Message"
                             ></TextareaAutosize>
-                            <div className="btn">
+                            <div className="btn-submit">
                                 <button type="submit" class="comic-button-submit">Submit</button>
                             </div>
                         </form>

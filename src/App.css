@@ -4,6 +4,7 @@ body {
   overflow: auto;
   overflow-x: hidden;
   user-select: none;
+  font-family: Menlo, Consolas, monospace;
 }
 
 .App {

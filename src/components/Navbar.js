@@ -11,6 +11,10 @@ import AppBar from '@mui/material/AppBar';
 import { Link } from "react-router-dom";
 import github from "./github.png";
 import linkedin from "./linkedin.png"
+import notepad from "./notepad.png"
+import homeicon from "./home.png"
+import work from "./work.png"
+import aboutIcon from "./aboutmeicon.png"
 
 export default function Navbar() {
   const [minWind, setminWind] = useState(false);
@@ -38,10 +42,10 @@ export default function Navbar() {
             <div className="flex-centre">
                 <div className="display-link">
                 <Link to="/home"><img className="logoo" src={logo} alt="u.svg" width="40px" height="40px"></img></Link>
-                    { minWind ? <Link className="link-btn" to="/home"><HomeIcon /></Link> : <Link className="link-btn" to="/home"><HomeIcon />Home</Link>}
-                    { minWind ? <Link className="link-btn" to="/projects"><WorkIcon /></Link> : <Link className="link-btn" to="/projects"><WorkIcon />Projects</Link>}
-                    { minWind ? <Link className="link-btn" to="/about"><PersonIcon /></Link> : <Link className="link-btn" to="/about"><PersonIcon />About Me</Link>}
-                    { minWind ? <Link className="link-btn" to="/contactme"><ContactsIcon /></Link> : <Link className="link-btn" to="/contactme"><ContactsIcon />Contact</Link>}
+                    { minWind ? <Link className="link-btn" to="/home"><img src={homeicon} width="50px" height="50px"/></Link> : <Link className="link-btn" to="/home"><img src={homeicon} width="50px" height="50px"/>Home</Link>}
+                    { minWind ? <Link className="link-btn" to="/projects"><img src={work} width="50px" height="50px"/></Link> : <Link className="link-btn" to="/projects"><img src={work} width="50px" height="50px"/>Projects</Link>}
+                    { minWind ? <Link className="link-btn" to="/about"><img src={aboutIcon} width="30px" height="30px"/></Link> : <Link className="link-btn" to="/about"><img src={aboutIcon} width="30px" height="30px" style={{marginRight: "10px"}}/>About Me</Link>}
+                    { minWind ? <Link className="link-btn" to="/contactme"><img src={notepad} width="50px" height="50px"/></Link> : <Link className="link-btn" to="/contactme"><img src={notepad} width="50px" height="50px"/>Contact</Link>}
                 </div>
             </div>
       </AppBar>
