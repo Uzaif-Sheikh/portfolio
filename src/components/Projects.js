@@ -1,6 +1,7 @@
 import React from "react";
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography, Avatar, List, ListItemIcon } from "@mui/material";
 import Animation from "./Animation";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -14,7 +15,6 @@ import circle from "./circle.jpg";
 import flockr from "./flockr.jpg";
 import sudoku from "./sudoku.jpg";
 import frankie from "./Frankie.jpg";
-import coronaRun from "./coverGame.JPG";
 import blobby from "./Blobby.jpg";
 import nn from "./cnn.png";
 import loop from "./loopmania.jpg";
@@ -23,12 +23,168 @@ import dontbelate from "./dontbelate.jpg";
 import "./Projects.css";
 import mysqlLogo from "./mysql.png";
 import typescript from "./typescript.png";
+import nglogo from "./nextgenlogo.jfif";
+import wtlogo from "./wtlogo.jfif";
+import angularlogo from "./angularlogo.png";
+import xslt from "./xsltlogo.png";
+import dotnet from "./dotnet.png";
 
 export default function Projects() {
 
     return (
         <Animation>
             <>
+                <Box className="main-div">
+                    <Typography variant="h4" className="about-title">Work Experience</Typography>
+                    <Box className="workex-container">
+                        <div className="work-content">
+                            <div className="work-img">
+                                <Avatar
+                                    alt="Remy Sharp"
+                                    src={nglogo}
+                                    sx={{ width: 80, height: 80 }}
+                                    className="avatar-cls"
+                                />
+                                <Typography gutterBottom variant="h5" className="company-tittle" component="div">
+                                    NextGen
+                                </Typography>
+                            </div>
+                            <div className="work-detail">
+                                <div className="work-title">
+                                    <Typography gutterBottom variant="h4" className="job-title" component="div">
+                                        Graduate Software Developer
+                                    </Typography>
+                                    <Typography gutterBottom variant="h5" className="job-title" component="div">
+                                        Sep 2023 - Present
+                                    </Typography>
+                                </div>
+                                <Typography gutterBottom variant="h6" className="work-time" component="div">
+                                    Full-time
+                                </Typography>
+                                <div className="skills">
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src={typescript} width="20px" height="20px"></img>}
+                                        label="Typescript"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src={angularlogo} width="30px" height="30px"></img>}
+                                        label="Angular"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src={xslt} width="30px" height="30px"></img>}
+                                        label="XSLT"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Text-xml.svg/1200px-Text-xml.svg.png" width="30px" height="30px"></img>}
+                                        label="XML"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="20px" height="20px"></img>}
+                                        label="Javascript"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://www.sectorlink.com/img/blog/active-server-pages.webp" width="30px" height="30px"></img>}
+                                        label="Classic ASP"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.svg" width="30px" height="30px"></img>}
+                                        label="SQL Server"
+                                    />
+                                </div>
+                                <Divider className="divider-st" />
+                                <List>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Develop and maintain high-quality, efficient, and scalable code in TypeScript, Angular, JavaScript, XSLT, XML, Classic ASP, and SQL, ensuring adherence to best practices.</Typography>
+                                    </ListItemIcon>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Conduct comprehensive unit testing for developed features and collaborate with testers on system integration, component, and regression testing.</Typography>
+                                    </ListItemIcon>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Analyze and evaluate system programs to design, develop, and implement business software solutions that meet organizational needs.</Typography>
+                                    </ListItemIcon>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Participate in peer code reviews, offering insights and strategies to improve software development processes, while working closely with developers, Business Analysts, and Team Lead to ensure project success.</Typography>
+                                    </ListItemIcon>
+                                </List> 
+                            </div>
+                        </div>
+                        <div className="work-content">
+                            <div className="work-img">
+                                <Avatar
+                                    alt="Remy Sharp"
+                                    src={wtlogo}
+                                    sx={{ width: 80, height: 80 }}
+                                    className="avatar-cls"
+                                />
+                                <Typography gutterBottom variant="h5" className="company-tittle" component="div">
+                                    WT Partnership
+                                </Typography>
+                            </div>
+                            <div className="work-detail">
+                                <div className="work-title">
+                                    <Typography gutterBottom variant="h4" className="job-title" component="div">                                        
+                                        Junior Software Developer
+                                    </Typography>
+                                    <Typography gutterBottom variant="h5" className="job-title" component="div">
+                                        Nov 2022 - Sep 2023
+                                    </Typography>
+                                </div>
+                                <Typography gutterBottom variant="h6" className="work-time" component="div">
+                                    Full-time
+                                </Typography>
+                                <div className="skills">
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://cdn.worldvectorlogo.com/logos/c--4.svg" width="20px" height="20px"></img>}
+                                        label="C#"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src={dotnet} width="20px" height="20px"></img>}
+                                        label="ASP.NET"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.svg" width="30px" height="30px"></img>}
+                                        label="SQL Server"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://swimburger.net/media/ppnn3pcl/azure.png" width="30px" height="30px"></img>}
+                                        label="Azure"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="30px" height="30px"></img>}
+                                        label="Python"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="20px" height="20px"></img>}
+                                        label="Javascript"
+                                    />
+                                </div>
+                                <Divider className="divider-st" />
+                                <List>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Developed REST API using C#, ASP.NET Core, and SQL Server for user and content management system, enabling efficient data access and interaction with the frontend.</Typography>
+                                    </ListItemIcon>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Designed and implemented a user-friendly UI using React, Razor Pages, JavaScript that increased user engagement, by improving the layout, navigation, and usability of the application.</Typography>
+                                    </ListItemIcon>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Implemented a time-saving feature by creating a custom data importer for Excel and CSV files, enabling efficient data import and enhancing user productivity.</Typography>
+                                    </ListItemIcon>
+                                    <ListItemIcon className="inlist">
+                                        <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                                        <Typography className="about-intro">Built a serverless Azure function for backend services using Python to reduce processing time.</Typography>
+                                    </ListItemIcon>
+                                </List> 
+                            </div>
+                        </div>
+                    </Box>
+                </Box>
                 <Box className="main-div">
                     <Typography variant="h4" className="about-title">Projects</Typography>
                     <Box className="projects-container">

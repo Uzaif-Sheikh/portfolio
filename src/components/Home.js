@@ -1,6 +1,5 @@
-import { div, Button, Divider, Typography } from "@mui/material";
+import { Divider, Typography } from "@mui/material";
 import React from "react";
-import LinkIcon from '@mui/icons-material/Link';
 import './Home.css';
 import Animation from "./Animation";
 import ReactTyped from "react-typed";
