@@ -26,11 +26,11 @@ export default function AboutMe() {
           />
           <Box className="about-in">
             <Typography variant="subtitle1" className="about-intro">
-            Hi, my name is Uzaif Sheikh, and I'm a third-year computer science student at 
-            the University of New South Wales (UNSW). Building effective and user-friendly application 
-            is a passion of mine, and I get a kick out of tackling challenging problems. I'm a big fan 
-            of open-source software and the blockchain, and I enjoy both taking advantage of and 
-            contributing to both communities.
+            Hi, my name is Uzaif Sheikh, and I'm a highly skilled computer science graduate and software developer 
+            with experience in full-stack web development and a passion for solving complex problems. 
+            Proficient in multiple programming languages, including Python, TypeScript, JavaScript, Node.js, 
+            React.js, and .NET, and experienced in agile development methodologies. Strong communicator and 
+            collaborator with a commitment to delivering high-quality code on time.
             </Typography>
             <br />
             <Typography variant="h5" className="skills">Tech Stack:</Typography>
