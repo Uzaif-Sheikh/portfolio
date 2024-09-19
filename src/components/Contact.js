@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Box, Typography } from "@mui/material";
 import Animation from "./Animation";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -7,7 +7,20 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TagIcon from '@mui/icons-material/Tag';
 import "./Contact.css";
 
+
+
 export default function Contact() {
+
+    
+
+    const _pelement = useRef(null);
+
+    const onClick = () => {
+        _pelement.current.style.backgroundColor = "#0F1624";
+        _pelement.current.style.color = "white";
+        _pelement.current.style.transition = "0.6s"
+        
+    }
 
 	return (
 		<Animation>
@@ -33,7 +46,7 @@ export default function Contact() {
                             <div className="irc-content">
                                 <p className="irc-inner">Server: irc.libera.chat</p>
                                 <p className="irc-inner">Channel: #msguzaif</p>
-                                <p className="irc-inner"><a target="__blank" href="https://www.geekshed.net/2012/03/using-channel-keys/#:~:text=Joining%20a%20Channel,join%20%23channel%20password" style={{color: "white"}}>Command:</a> /join #msguzaif talktouzaif</p>
+                                <p className="irc-inner"><a target="__blank" href="https://www.geekshed.net/2012/03/using-channel-keys/#:~:text=Joining%20a%20Channel,join%20%23channel%20password" style={{color: "white"}}>Command:</a> /join #msguzaif <p ref={_pelement} onClick={onClick} className="hidebeforeClick">talktouzaif</p></p>
                             </div>
                         </div>
                     </Box>

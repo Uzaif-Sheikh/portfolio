@@ -159,3 +159,14 @@
         color: white;
     }
 }
+
+.hidebeforeClick {
+    background-color: rgb(75, 72, 72);
+    color: rgb(75, 72, 72);
+    margin: 0;
+    display: inline;
+    padding: 2px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
