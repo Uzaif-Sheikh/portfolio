@@ -4,6 +4,7 @@ import Animation from "./Animation";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import TagIcon from '@mui/icons-material/Tag';
 import "./Contact.css";
 
 export default function Contact() {
@@ -28,7 +29,7 @@ export default function Contact() {
                             <a target="__blank" href="mailto:uzaifsheikh2309@gmail.com" className="contact-icon"><EmailIcon fontSize="large" style={{margin: "4px"}}/> uzaifsheikh2309@gmail.com</a>
                         </div>
                         <div className="contact-box">
-                            <a target="__blank" href="https://g.co/kgs/6rLBQh1" className="contact-icon">IRC:</a>
+                            <a target="__blank" href="https://g.co/kgs/6rLBQh1" className="contact-icon"><TagIcon fontSize="large" style={{margin: "4px"}}/>IRC:</a>
                             <div className="irc-content">
                                 <p className="irc-inner">Server: irc.libera.chat</p>
                                 <p className="irc-inner">Channel: #msguzaif</p>
