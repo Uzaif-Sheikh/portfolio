@@ -38,7 +38,7 @@ export default function Projects() {
                     <Typography variant="h4" className="about-title">Work Experience</Typography>
                     <Box className="workex-container">
                         <div className="work-content">
-                        <div style={{"display": "flex"}}>
+                        <div className="eachWork" style={{"display": "flex"}}>
                                 <div className="work-img" style={{"flexGrow": "0", "zIndex": "100"}}>
                                     <Avatar
                                         alt="Remy Sharp"
@@ -61,7 +61,7 @@ export default function Projects() {
                                     </Typography>
                                 </div>
                             </div>
-                            <div style={{"display": "flex"}}>
+                            <div className="eachWork" style={{"display": "flex"}}>
                                 <div className="work-img">
                                     <div className="line"></div>
                                     <div>
@@ -141,7 +141,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="work-content">
-                            <div style={{"display": "flex"}}>
+                            <div className="eachWork" style={{"display": "flex"}}>
                                 <div className="work-img">
                                     <Avatar
                                         alt="Remy Sharp"

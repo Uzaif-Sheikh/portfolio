@@ -233,3 +233,13 @@
         padding: 10px
     }
 }
+
+@media screen and (max-width: 523px) {
+    .line {
+        display: none;
+    }
+
+    .eachWork {
+        flex-direction: column;
+    }
+}
