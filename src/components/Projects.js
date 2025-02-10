@@ -20,6 +20,8 @@ import nn from "./cnn.png";
 import loop from "./loopmania.jpg";
 import portfolio from "./personal-web.jpg";
 import dontbelate from "./dontbelate.jpg";
+import profbudget from "./ProfBudget.png";
+import supabase from "./supabase.png";
 import "./Projects.css";
 import mysqlLogo from "./mysql.png";
 import typescript from "./typescript.png";
@@ -38,32 +40,8 @@ export default function Projects() {
                     <Typography variant="h4" className="about-title">Work Experience</Typography>
                     <Box className="workex-container">
                         <div className="work-content">
-                        <div className="eachWork" style={{"display": "flex"}}>
-                                <div className="work-img" style={{"flexGrow": "0", "zIndex": "100"}}>
-                                    <Avatar
-                                        alt="Remy Sharp"
-                                        src={nglogo}
-                                        sx={{ width: 80, height: 80 }}
-                                        className="avatar-cls"
-                                    />
-                                </div>
-                                <div className="work-detail">
-                                    <div className="work-title">
-                                        <Typography gutterBottom variant="h4" className="job-title" component="div">
-                                            Software Developer L2
-                                        </Typography>
-                                        <Typography gutterBottom variant="h5" className="job-title" component="div">
-                                            Dec 2024 - Present
-                                        </Typography>
-                                    </div>
-                                    <Typography gutterBottom variant="h6" className="work-time" component="div">
-                                        Full-time
-                                    </Typography>
-                                </div>
-                            </div>
                             <div className="eachWork" style={{"display": "flex"}}>
                                 <div className="work-img">
-                                    <div className="line"></div>
                                     <div>
                                         <Avatar
                                             alt="Remy Sharp"
@@ -79,7 +57,7 @@ export default function Projects() {
                                 <div className="work-detail">
                                     <div className="work-title">
                                         <Typography gutterBottom variant="h4" className="job-title" component="div">
-                                            Graduate Software Developer
+                                            Software Developer L2
                                         </Typography>
                                         <Typography gutterBottom variant="h5" className="job-title" component="div">
                                             Sep 2023 - Dec 2024
@@ -321,6 +299,43 @@ export default function Projects() {
                             </CardContent>
                             <CardActions>
                                 <a href="https://github.com/Uzaif-Sheikh/Event_Management" target="__blank" style={{ "marginRight": "2px", "textDecoration": "none" }}><button class="comic-button"><div className="fix-button-name"><GitHubIcon />GitHub</div></button></a>
+                            </CardActions>
+                        </Card></div>
+                        <div><Card className="card-content" sx={{ maxWidth: 345 }}>
+                            <CardMedia
+                                component="img"
+                                alt="fury of dracula"
+                                height="100"
+                                image={profbudget}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h4" className="project-tittle" component="div">
+                                    Professor Budget
+                                </Typography>
+                                <div className="skills">
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src={typescript} width="20px" height="20px"></img>}
+                                        label="Typescript"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="30px" height="30px"></img>}
+                                        label="React"
+                                    />
+                                    <Chip className="btn-skill"
+                                        avatar={<img className="image-hover" src={supabase} width="30px" height="30px"></img>}
+                                        label="Supabase"
+                                    />
+                                </div>
+                                <Divider className="divider-st" />
+                                <Typography variant="body2" className="project-des">
+                                    Professor Budget - A budgeting app designed to help individuals track expenses, especially during Sydney's rental crisis, which 
+                                    has placed significant financial strain on the community. Co-developed with <a href="https://github.com/17Ayaan28" target="_blank" style={{ "color": "rgba(205, 198, 198)" }}>Ayaan Adil</a>, the app is
+                                    an ongoing project with continuous feature enhancements to improve financial planning and expense management.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                {/* <a href="https://github.com/Uzaif-Sheikh/Event_Management" target="__blank" style={{ "marginRight": "2px", "textDecoration": "none" }}><button class="comic-button"><div className="fix-button-name"><GitHubIcon />GitHub</div></button></a> */}
+                                <a href="https://prof-budget.vercel.app/" target="__blank" style={{ "marginRight": "1px", "textDecoration": "none" }}><button class="comic-button"><div className="fix-button-name"><ExitToAppIcon />Demo</div></button></a>
                             </CardActions>
                         </Card></div>
                         <div><Card className="card-content" sx={{ maxWidth: 345 }}>

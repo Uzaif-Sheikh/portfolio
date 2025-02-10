@@ -26,10 +26,10 @@ export default function AboutMe() {
           />
           <Box className="about-in">
             <Typography variant="subtitle1" className="about-intro">
-            Hi, my name is Uzaif Sheikh, and I'm a highly skilled computer science graduate and software developer 
-            with experience in full-stack web development and a passion for solving complex problems. 
-            Proficient in multiple programming languages, including Python, TypeScript, JavaScript, Node.js, 
-            React.js, and .NET, and experienced in agile development methodologies. Strong communicator and 
+            Hi, my name is Uzaif Sheikh, and I'm a highly skilled computer science graduate and software engineer 
+            with 2+ years of experience in full-stack development and a passion for solving complex problems. 
+            Proficient in multiple programming languages, including TypeScript, JavaScript, Node.js, 
+            React.js, Python, and .NET, and experienced in agile development methodologies. Strong communicator and 
             collaborator with a commitment to delivering high-quality code on time.
             </Typography>
             <br />
@@ -129,7 +129,7 @@ export default function AboutMe() {
               <List className="main-list">
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Soccer.</Typography>
+                  <Typography className="about-intro">Snorkelling.</Typography>
                 </ListItemIcon>
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
@@ -141,15 +141,11 @@ export default function AboutMe() {
                 </ListItemIcon>
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Weightlifting.</Typography>
+                  <Typography className="about-intro">Soccer.</Typography>
                 </ListItemIcon>
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Video editing and Animation.</Typography>
-                </ListItemIcon>
-                <ListItemIcon className="inlist">
-                  <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Game development.</Typography>
+                  <Typography className="about-intro">Game development and Animation.</Typography>
                 </ListItemIcon>
               </List> 
             </Box>

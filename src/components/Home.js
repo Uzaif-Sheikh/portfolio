@@ -34,7 +34,7 @@ export default function Home() {
                     <Divider className="divider-st"/>
 					<div className="about-container">
 						<Typography variant="subtitle1" className="about-text">
-						I am a highly motivated Software developer with a Bachelor's degree
+						I am a highly motivated Software engineer with a Bachelor's degree
 						in Computer Science from the University of New South Wales (UNSW), 
 						I am passionate about software development and strive to continuously enhance
 						my skills. With a strong collaborative spirit and dedication to delivering high-quality solutions, 
