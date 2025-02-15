@@ -9,6 +9,9 @@ import { Typography } from "@mui/material";
 import Animation from "./Animation";
 import typescript from "./typescript.png";
 import dotnet from "./dotnet.png"
+import flask from "./Flask.png";
+import C from "./C.png";
+import Cpp from "./C++.png";
 
 export default function AboutMe() {
   return (
@@ -49,7 +52,7 @@ export default function AboutMe() {
               />
               
               <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
+                avatar={<img className="image-hover" src={flask} width="30px" height="30px"></img>}
                 label="Flask"
               />
               <Chip className="btn-skill"
@@ -69,11 +72,11 @@ export default function AboutMe() {
                 label="Docker"
               />
               <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://camo.githubusercontent.com/2771059ece39a91f0ca8afe0205a540e3af66f435508ba80b080eb249479d4dc/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f632d70726f6772616d6d696e672e706e67" width="30px" height="30px"></img>}
+                avatar={<img className="image-hover" src={C} width="30px" height="30px"></img>}
                 label="C"
               />
               <Chip className="btn-skill"
-                avatar={<img className="image-hover" src="https://camo.githubusercontent.com/04a68d28c34b095402af3f66b15a65b9802c0d7ffdfa813635f65a9dbb18c16e/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f632d706c75732d706c75732d6c6f676f2e706e67" width="30px" height="30px"></img>}
+                avatar={<img className="image-hover" src={Cpp} width="30px" height="30px"></img>}
                 label="C++"
               />
               <Chip className="btn-skill"

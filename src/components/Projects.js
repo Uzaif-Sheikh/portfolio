@@ -30,6 +30,9 @@ import wtlogo from "./wtlogo.jfif";
 import angularlogo from "./angularlogo.png";
 import xslt from "./xsltlogo.png";
 import dotnet from "./dotnet.png";
+import flask from "./Flask.png";
+import C from "./C.png";
+import Cpp from "./C++.png";
 
 export default function Projects() {
 
@@ -274,7 +277,7 @@ export default function Projects() {
                                         label="Python"
                                     />
                                     <Chip className="btn-skill"
-                                        avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
+                                        avatar={<img className="image-hover" src={flask} width="30px" height="30px"></img>}
                                         label="Flask"
                                     />
                                     <Chip className="btn-skill"
@@ -334,7 +337,7 @@ export default function Projects() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                {/* <a href="https://github.com/Uzaif-Sheikh/Event_Management" target="__blank" style={{ "marginRight": "2px", "textDecoration": "none" }}><button class="comic-button"><div className="fix-button-name"><GitHubIcon />GitHub</div></button></a> */}
+                                <a href="https://github.com/Uzaif-Sheikh/prof-Budget" target="__blank" style={{ "marginRight": "2px", "textDecoration": "none" }}><button class="comic-button"><div className="fix-button-name"><GitHubIcon />GitHub</div></button></a>
                                 <a href="https://prof-budget.vercel.app/" target="__blank" style={{ "marginRight": "1px", "textDecoration": "none" }}><button class="comic-button"><div className="fix-button-name"><ExitToAppIcon />Demo</div></button></a>
                             </CardActions>
                         </Card></div>
@@ -351,7 +354,7 @@ export default function Projects() {
                                 </Typography>
                                 <div className="skills">
                                     <Chip className="btn-skill"
-                                        avatar={<img className="image-hover" src="https://camo.githubusercontent.com/2771059ece39a91f0ca8afe0205a540e3af66f435508ba80b080eb249479d4dc/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f632d70726f6772616d6d696e672e706e67" width="30px" height="30px"></img>}
+                                        avatar={<img className="image-hover" src={C} width="30px" height="30px"></img>}
                                         label="C"
                                     />
                                     <Chip className="btn-skill"
@@ -455,7 +458,7 @@ export default function Projects() {
                                 </Typography>
                                 <div className="skills">
                                     <Chip className="btn-skill"
-                                        avatar={<img className="image-hover" src="https://camo.githubusercontent.com/04a68d28c34b095402af3f66b15a65b9802c0d7ffdfa813635f65a9dbb18c16e/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f632d706c75732d706c75732d6c6f676f2e706e67" width="30px" height="30px"></img>}
+                                        avatar={<img className="image-hover" src={Cpp} width="30px" height="30px"></img>}
                                         label="C++"
                                     />
                                     <Chip className="btn-skill"
@@ -491,7 +494,7 @@ export default function Projects() {
                                         label="Python"
                                     />
                                     <Chip className="btn-skill"
-                                        avatar={<img className="image-hover" src="https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png" width="30px" height="30px"></img>}
+                                        avatar={<img className="image-hover" src={flask} width="30px" height="30px"></img>}
                                         label="Flask"
                                     />
                                     <Chip className="btn-skill"
@@ -522,7 +525,7 @@ export default function Projects() {
                                 </Typography>
                                 <div className="skills">
                                     <Chip className="btn-skill"
-                                        avatar={<img className="image-hover" src="https://camo.githubusercontent.com/2771059ece39a91f0ca8afe0205a540e3af66f435508ba80b080eb249479d4dc/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f632d70726f6772616d6d696e672e706e67" width="30px" height="30px"></img>}
+                                        avatar={<img className="image-hover" src={C} width="30px" height="30px"></img>}
                                         label="C"
                                     />
                                 </div>
