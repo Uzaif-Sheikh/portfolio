@@ -12,6 +12,7 @@ import dotnet from "./dotnet.png"
 import flask from "./Flask.png";
 import C from "./C.png";
 import Cpp from "./C++.png";
+import avatar from "./profpic.jpg"
 
 export default function AboutMe() {
   return (
@@ -23,8 +24,8 @@ export default function AboutMe() {
         <Box className="avatar-img">
           <Avatar
             alt="Remy Sharp"
-            src="https://avatars.githubusercontent.com/u/50875291?v=4"
-            sx={{ width: 260, height: 260 }}
+            src={avatar}
+            sx={{ width: 280, height: 280 }}
             className="avatar-cls"
           />
           <Box className="about-in">
@@ -132,19 +133,15 @@ export default function AboutMe() {
               <List className="main-list">
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
+                  <Typography className="about-intro">Scuba Diving 🤿.</Typography>
+                </ListItemIcon>
+                <ListItemIcon className="inlist">
+                  <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
                   <Typography className="about-intro">Snorkelling.</Typography>
                 </ListItemIcon>
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Brazilian jiu-jitsu.</Typography>
-                </ListItemIcon>
-                <ListItemIcon className="inlist">
-                  <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
                   <Typography className="about-intro">Cooking.</Typography>
-                </ListItemIcon>
-                <ListItemIcon className="inlist">
-                  <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
-                  <Typography className="about-intro">Soccer.</Typography>
                 </ListItemIcon>
                 <ListItemIcon className="inlist">
                   <ArrowForwardIosIcon style={{"color": "white", "width": "20px", "height": "30px"}} /> 
